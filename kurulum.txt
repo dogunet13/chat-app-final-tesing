@@ -1,0 +1,29 @@
+cd /var/www/vhosts/sesli.mobilgir.com
+npm install
+
+siteyi baþlatma
+
+*****************
+
+forever start app.js
+
+
+siteyi resetleme
+
+****************************
+
+forever restart app.js
+
+
+siteyi durdurma
+
+***************************
+
+forever stop app.js
+
+
+tum siteleri resetleme
+
+**************************
+
+forever restartall app.js
